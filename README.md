@@ -1,6 +1,12 @@
 # Atrix
 A simple Apple 30pin breakout that just gives you sync and serial. Atrix was designed to both replace and simplify the old PodBreakout, which has been discontinued for a while.
 
+#### Please note; At this time, I have not received these parts yet for testing, so use at your own risk.
+
+# Mockups
+<img src="./mockups/Atrix_breakout_board_top.png" width="140" height="300">
+<img src="./mockups/Atrix_breakout_board_bottom.png" width="140" height="300">
+
 # How-to
 ### What you'll need;
 1. 1x FT232RL Breakout board (Sparkfun)

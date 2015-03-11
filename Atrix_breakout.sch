@@ -339,9 +339,9 @@ This is the connector that will insert into an iPods. Use this connector to gain
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="134.62" y="45.72"/>
-<instance part="GND" gate="P" x="101.6" y="81.28" smashed="yes">
-<attribute name="NAME" x="92.837" y="80.5942" size="1.778" layer="95"/>
-<attribute name="VALUE" x="100.457" y="77.978" size="1.778" layer="96"/>
+<instance part="GND" gate="P" x="93.98" y="78.74" smashed="yes">
+<attribute name="NAME" x="85.217" y="78.0542" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.837" y="75.438" size="1.778" layer="96"/>
 </instance>
 <instance part="D-" gate="P" x="114.3" y="20.32" smashed="yes">
 <attribute name="NAME" x="108.077" y="19.6342" size="1.778" layer="95"/>
@@ -367,26 +367,14 @@ This is the connector that will insert into an iPods. Use this connector to gain
 <attribute name="NAME" x="108.077" y="29.7942" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.157" y="27.178" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="P" x="101.6" y="83.82" smashed="yes">
-<attribute name="NAME" x="92.837" y="83.1342" size="1.778" layer="95"/>
-<attribute name="VALUE" x="100.457" y="80.518" size="1.778" layer="96"/>
+<instance part="GND1" gate="P" x="93.98" y="81.28" smashed="yes">
+<attribute name="NAME" x="85.217" y="80.5942" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.837" y="77.978" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="GND@1"/>
-<pinref part="GND" gate="P" pin="P"/>
-<wire x1="104.14" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="81.28" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="81.28" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
-<junction x="106.68" y="81.28"/>
-<pinref part="GND1" gate="P" pin="P"/>
-<wire x1="106.68" y1="83.82" x2="104.14" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="USB_D-"/>
@@ -421,6 +409,23 @@ This is the connector that will insert into an iPods. Use this connector to gain
 <segment>
 <pinref part="U$1" gate="G$1" pin="ACC_INDICATOR"/>
 <pinref part="AL" gate="P" pin="P"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND@1"/>
+<wire x1="116.84" y1="81.28" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
+<label x="111.76" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="GND1" gate="P" pin="P"/>
+<wire x1="96.52" y1="81.28" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
+<label x="99.06" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="GND" gate="P" pin="P"/>
+<wire x1="96.52" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
+<label x="99.06" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
