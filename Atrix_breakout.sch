@@ -327,10 +327,11 @@ This is the connector that will insert into an iPods. Use this connector to gain
 <part name="GND" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="D-" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="D+" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="14" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="RX" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="TX" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="5V" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="AL" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="GND1" library="wirepad" deviceset="1,6/0,8" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -338,9 +339,9 @@ This is the connector that will insert into an iPods. Use this connector to gain
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="134.62" y="45.72"/>
-<instance part="GND" gate="P" x="114.3" y="81.28" smashed="yes">
-<attribute name="NAME" x="105.537" y="80.5942" size="1.778" layer="95"/>
-<attribute name="VALUE" x="113.157" y="77.978" size="1.778" layer="96"/>
+<instance part="GND" gate="P" x="101.6" y="81.28" smashed="yes">
+<attribute name="NAME" x="92.837" y="80.5942" size="1.778" layer="95"/>
+<attribute name="VALUE" x="100.457" y="77.978" size="1.778" layer="96"/>
 </instance>
 <instance part="D-" gate="P" x="114.3" y="20.32" smashed="yes">
 <attribute name="NAME" x="108.077" y="19.6342" size="1.778" layer="95"/>
@@ -349,10 +350,6 @@ This is the connector that will insert into an iPods. Use this connector to gain
 <instance part="D+" gate="P" x="114.3" y="15.24" smashed="yes">
 <attribute name="NAME" x="108.077" y="14.5542" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.157" y="11.938" size="1.778" layer="96"/>
-</instance>
-<instance part="14" gate="P" x="114.3" y="48.26" smashed="yes">
-<attribute name="NAME" x="108.077" y="47.5742" size="1.778" layer="95"/>
-<attribute name="VALUE" x="113.157" y="44.958" size="1.778" layer="96"/>
 </instance>
 <instance part="RX" gate="P" x="114.3" y="50.8" smashed="yes">
 <attribute name="NAME" x="108.077" y="50.1142" size="1.778" layer="95"/>
@@ -366,6 +363,14 @@ This is the connector that will insert into an iPods. Use this connector to gain
 <attribute name="NAME" x="108.077" y="24.7142" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.157" y="22.098" size="1.778" layer="96"/>
 </instance>
+<instance part="AL" gate="P" x="114.3" y="30.48" smashed="yes">
+<attribute name="NAME" x="108.077" y="29.7942" size="1.778" layer="95"/>
+<attribute name="VALUE" x="113.157" y="27.178" size="1.778" layer="96"/>
+</instance>
+<instance part="GND1" gate="P" x="101.6" y="83.82" smashed="yes">
+<attribute name="NAME" x="92.837" y="83.1342" size="1.778" layer="95"/>
+<attribute name="VALUE" x="100.457" y="80.518" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -374,6 +379,12 @@ This is the connector that will insert into an iPods. Use this connector to gain
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND@1"/>
 <pinref part="GND" gate="P" pin="P"/>
+<wire x1="104.14" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="81.28" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="81.28" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
+<junction x="106.68" y="81.28"/>
+<pinref part="GND1" gate="P" pin="P"/>
+<wire x1="106.68" y1="83.82" x2="104.14" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -386,12 +397,6 @@ This is the connector that will insert into an iPods. Use this connector to gain
 <segment>
 <pinref part="U$1" gate="G$1" pin="USB_D+"/>
 <pinref part="D+" gate="P" pin="P"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="14"/>
-<pinref part="14" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -410,6 +415,12 @@ This is the connector that will insert into an iPods. Use this connector to gain
 <segment>
 <pinref part="U$1" gate="G$1" pin="USB_5V"/>
 <pinref part="5V" gate="P" pin="P"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="ACC_INDICATOR"/>
+<pinref part="AL" gate="P" pin="P"/>
 </segment>
 </net>
 </nets>
