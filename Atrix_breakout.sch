@@ -330,7 +330,7 @@ This is the connector that will insert into an iPods. Use this connector to gain
 <part name="RX" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="TX" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="5V" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="AL" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="ACC" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="GND1" library="wirepad" deviceset="1,6/0,8" device=""/>
 </parts>
 <sheets>
@@ -363,7 +363,7 @@ This is the connector that will insert into an iPods. Use this connector to gain
 <attribute name="NAME" x="108.077" y="24.7142" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.157" y="22.098" size="1.778" layer="96"/>
 </instance>
-<instance part="AL" gate="P" x="114.3" y="30.48" smashed="yes">
+<instance part="ACC" gate="P" x="114.3" y="30.48" smashed="yes">
 <attribute name="NAME" x="108.077" y="29.7942" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.157" y="27.178" size="1.778" layer="96"/>
 </instance>
@@ -408,7 +408,7 @@ This is the connector that will insert into an iPods. Use this connector to gain
 <net name="N$2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="ACC_INDICATOR"/>
-<pinref part="AL" gate="P" pin="P"/>
+<pinref part="ACC" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="GND" class="0">

@@ -27,7 +27,7 @@ A simple Apple 30pin breakout that just gives you sync and serial. Atrix was des
   * Green to RX
   * White to TX
   * Black to GND
-4. Solder a 470k resistor between one of the GNDs and the AL pin
+4. Solder a 470k resistor between one of the GNDs and the ACC pin
 5. You're all set. 
 
 ### Sync

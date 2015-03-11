@@ -419,8 +419,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="3.24881875" y="7.865259375" size="0.6096" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="3.66481875" y="8.627259375" size="0.0254" layer="27" rot="R90"/>
 </element>
-<element name="AL" library="wirepad" package="1,6/0,8" value="" x="4.1998375" y="17.78889375" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.2342375" y="17.367115625" size="0.6096" layer="25" ratio="10" rot="R90"/>
+<element name="ACC" library="wirepad" package="1,6/0,8" value="" x="4.1998375" y="17.78889375" smashed="yes" rot="R90">
+<attribute name="NAME" x="3.258146875" y="16.91235" size="0.6096" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="3.5998375" y="17.78889375" size="0.0254" layer="27" rot="R90"/>
 </element>
 <element name="GND1" library="wirepad" package="1,6/0,8" value="" x="4.28229375" y="10.43995" smashed="yes" rot="R90">
@@ -467,7 +467,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$2">
 <contactref element="U$1" pad="21"/>
-<contactref element="AL" pad="1"/>
+<contactref element="ACC" pad="1"/>
 <wire x1="0.102371875" y1="10.231275" x2="1.80234375" y2="10.231275" width="0.3048" layer="16"/>
 <wire x1="1.80234375" y1="10.231275" x2="3.347084375" y2="11.776015625" width="0.3048" layer="16"/>
 <wire x1="3.347084375" y1="11.776015625" x2="4.876715625" y2="11.776015625" width="0.3048" layer="16"/>
