@@ -3,7 +3,7 @@ A simple Apple 30pin breakout that just gives you sync and serial. Atrix was des
 
 #### Please note; At this time, I have not received these parts yet for testing, so use at your own risk.
 
-# Mockups
+# Mockup
 <img src="./mockups/Atrix_breakout_board_top.png" width="140" height="300">
 <img src="./mockups/Atrix_breakout_board_bottom.png" width="140" height="300">
 
