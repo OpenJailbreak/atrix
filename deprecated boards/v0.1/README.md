@@ -1,7 +1,7 @@
-# Atrix v0.2
-A simple Apple 30pin breakout that just gives you sync and serial. Atrix was designed to both replace and simplify the old PodBreakout, which has been discontinued for a while.
+# Atrix v0.1 (Deprecated)
+#### Note; this is a deprecated board, feel free to still use it if you prefer this over the newer revisions, but please know I nor anyone else takes responsibility for device damage. 
 
-#### Please note; At this time, I have not received these parts yet for testing, so use at your own risk.
+A simple Apple 30pin breakout that just gives you sync and serial. Atrix was designed to both replace and simplify the old PodBreakout, which has been discontinued for a while.
 
 # Mockup
 <img src="./mockups/Atrix_breakout_board_top.png" width="140" height="300">
@@ -9,11 +9,13 @@ A simple Apple 30pin breakout that just gives you sync and serial. Atrix was des
 
 # How-to
 ### What you'll need;
-1. FTDI Basic aka FTDI Friend (Sparkfun, Adafruit, Amazon, etc.)
-2. 6-pin header (Sparkfun, Adafruit)
-3. 470k resistor (Sparkfun, Adafruit; usually sold in resistor kits)
-4. USB micro-B SMD connector (Sparkfun)
-5. Male 30-pin iPod connector (Sparkfun)
+1. 1x FT232RL Breakout board (Sparkfun)
+2. 1x 470k resistor
+3. 2x USB-A to USB mini-B cables (Amazon, Frys, etc.)
+4. 1x Atrix board (OSH Park can manufacturer three of these for ~$1 w/ free shipping)
+5. Soldering equipment (Amazon, Frys, Sparkfun, Adafruit, etc.)
+6. Male iPod Connector (Sparkfun)
+7. Colored wire (doesn't have to be colored but it makes things less confusing if you use separate colors)
 
 ### Serial
 1. Prepare three 2 inch lengths of colored wire preferably green, white, and black
