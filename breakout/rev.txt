@@ -1,0 +1,4 @@
+Revision: v1.0.1
+- Standardized hole size
+- Broke out three individual GNDs for; serial, acc -> gnd, USB
+- Improved(?) board layout and design
