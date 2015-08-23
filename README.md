@@ -1,4 +1,4 @@
-# Atrix v1.0.1
+# Atrix v1.0.2
 Atrix is an open source project based around iPhone/iPad/iPod 30pin to serial adapter or breakout hardware.
 
 Two subprojects exsist;
