@@ -172,6 +172,11 @@
 <text x="28.84210625" y="7.521215625" size="0.4064" layer="25" rot="R90">~ haifisch
 greetz to musclenerd, notjonseals, herpes,
 frankie, p0k, &amp; posix.  </text>
+<text x="7.6253625" y="14.69116875" size="0.8128" layer="122" rot="MR180">TX</text>
+<text x="6.505759375" y="17.29105" size="0.8128" layer="122" rot="MR180">GND</text>
+<text x="7.420771875" y="12.2477875" size="0.8128" layer="122" rot="MR180">RX</text>
+<text x="6.246359375" y="7.30649375" size="3.81" layer="121" rot="R90">Atrix</text>
+<text x="7.17403125" y="17.9566375" size="3.81" layer="122" rot="MR270">Atrix</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
